@@ -29,9 +29,7 @@ export default function Services() {
     <div className="max-w-[1100px] m-auto text-white"> 
       <h1 className="m-4 text-2xl font-bold border rounded-lg text-center max-w-fit p-2 ">Why to Choose Turf_41? </h1>
       <p className="px-4 text-gray-200 text-justify">
-        Turf_41 is your go-to cricket turf designed for players of all ages. 
-        Whether you’re booking for practice, a friendly match, or a tournament, 
-        our fully maintained pitch and lighting setup ensure the best game experience.
+        Turf_41 आपका अपना क्रिकेट टर्फ है, जहाँ हर उम्र के खिलाड़ी आराम से खेल सकते हैं। चाहे आप अभ्यास के लिए बुकिंग करें, कोई दोस्ताना मैच हो या कोई टूर्नामेंट—हमारी पूरी तरह से मेंटेन की गई पिच और शानदार लाइटिंग व्यवस्था आपको बेहतरीन खेल अनुभव प्रदान करती है।
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 m-4">
