@@ -19,9 +19,9 @@ export default function Homepage() {
      
 
       {/* Button */}
-      <button className=" mt-6 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+      <a href='https://wa.me/917318454818' className="cursor-pointer mt-6 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
         Book Now
-      </button>
+      </a>
     </div>
   );
 }
