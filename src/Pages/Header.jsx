@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="w-full h-fit flex items-center justify-between p-3">
+      <div id="home" className="w-full h-fit flex items-center justify-between p-3">
         {/* left */}
         <div className="w-[90px]">
           <img src={logo} alt="turflogo" />

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Anton&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "tailwindcss";
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   background: repeating-linear-gradient(
     45deg,

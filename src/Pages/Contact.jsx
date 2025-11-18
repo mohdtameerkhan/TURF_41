@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="text-amber-50 max-w-[1100px] h-fit m-auto p-6 grid md:grid-cols-2 gap-6">
 
         {/* Address Section */}
-        <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 shadow-lg">
+        <div id='contact' className="bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 shadow-lg">
           <div className="flex items-center gap-3 mb-3">
             <CiLocationOn className="text-4xl text-green-400" />
             <h1 className="text-2xl font-semibold">Address Information</h1>
