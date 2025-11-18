@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Anton&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+body {
+  background: repeating-linear-gradient(
+    45deg,
+    #0f235a,
+    #0f235a 10px,
+    #102a6b 10px,
+    #102a6b 20px
+  );
+ 
+  font-family: "Unna", serif;
+}
+
+@layer utilities {
+  @keyframes moveAround {
+    0%   { transform: translate(0, 0); }
+    25%  { transform: translate(100vw, 100vh); }
+    50%  { transform: translate(40vw, 80vh); }
+    75%  { transform: translate(10vw, 70vh); }
+    100% { transform: translate(80vh, 100vh); }
+  }
+
+  .animate-moveAround {
+    animation: moveAround 6s linear infinite;
+  }
+}
