@@ -1,5 +1,5 @@
 import React from 'react';
-import vdo from '../Assets/tvido.mp4';
+import vdo from '../assets/tvido.mp4';
 
 export default function Gallery() {
   return (
