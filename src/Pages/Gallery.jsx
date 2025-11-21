@@ -11,7 +11,7 @@ export default function Gallery() {
        
       <video src={vdo} autoPlay muted playsInline loop></video>
       <div className='text-center text-white'> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
-     <video className='rounded-br-4xl' src={vdo2} autoPlay muted playsInline loop></video>
+     <video className='[clip-path:polygon(0_0,100%_0,100%_90%,95%_100%,0_100%)]' src={vdo2} autoPlay muted playsInline loop></video>
      <div className='text-center text-white'> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
      <video src={vdo} autoPlay muted playsInline loop></video>
      <div className='text-center text-white'> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
