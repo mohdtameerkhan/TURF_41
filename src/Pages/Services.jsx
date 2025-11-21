@@ -2,6 +2,7 @@ import React from 'react'
 import { GiGrass } from "react-icons/gi";
 import { MdSecurityUpdateGood, MdLightMode } from "react-icons/md";
 import { GrVmMaintenance } from "react-icons/gr";
+import GL from "../assets/GOLDEN-LOGO.png";
 
 export default function Services() {
 
@@ -27,9 +28,9 @@ export default function Services() {
 
   return (
     <div className="max-w-[1100px] m-auto text-white"> 
-      <h1 id='services' className="m-4 text-2xl font-bold border rounded-lg text-center max-w-fit p-2 ">Why to Choose Turf_41? </h1>
+      <h1 id='services' className="m-4 text-2xl font-bold border rounded-lg text-center max-w-fit p-2">Why to Choose  <img src={GL} alt="" className='inline w-[90px]' /> </h1>
       <p  className="px-4 text-gray-200 text-justify">
-        Turf_41 आपका अपना क्रिकेट टर्फ है, जहाँ हर उम्र के खिलाड़ी आराम से खेल सकते हैं। चाहे आप अभ्यास के लिए बुकिंग करें, कोई दोस्ताना मैच हो या कोई टूर्नामेंट—हमारी पूरी तरह से मेंटेन की गई पिच और शानदार लाइटिंग व्यवस्था आपको बेहतरीन खेल अनुभव प्रदान करती है।
+        "Turf_41 is your own cricket turf, where players of all ages can play comfortably. Whether you book it for practice, a friendly match, or a tournament — our fully maintained pitch and excellent lighting setup provide you with the best playing experience."
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 m-4">
