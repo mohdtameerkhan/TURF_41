@@ -1,10 +1,10 @@
 import React from 'react';
 import vdo from '../assets/tvido.mp4';
-import vdo2 from '../assets/IMG_4440.MP4';
+import vdo2 from '../assets/IMG_4441.MP4';
 
 export default function Gallery() {
   return (
-     <div className='max-w-[1100px] h-fit m-auto p-6 bg-amber-100'> 
+     <div className='max-w-[1100px] h-fit m-auto bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20 shadow-lg'> 
      <h1 id='gallery' className='m-4 font-bold '>Turf_41 Highlights.
      </h1>
      <div className='border grid grid-cols-1 md:grid-cols-3 gap-4 p-4'>
