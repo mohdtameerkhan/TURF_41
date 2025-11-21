@@ -3,6 +3,7 @@ import { BsMenuUp } from "react-icons/bs";
 import { BsMenuDown } from "react-icons/bs";
 
 import logo from "../assets/turf_.png";
+import GL from "../assets/GOLDEN-LOGO.png";
 import Menu from "./Menu";
 
 export default function Header() {
@@ -12,8 +13,9 @@ export default function Header() {
     <>
       <div id="home" className="w-full h-fit flex items-center justify-between p-3 fixed z-10">
         {/* left */}
-        <div className="w-[90px]">
+        <div className="w-[90px] flex items-center gap-2">
           <img src={logo} alt="turflogo" />
+          <img src={GL} alt="" className="w-[90px] " />
         </div>
 
         {/* right */}
