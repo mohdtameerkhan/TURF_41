@@ -10,11 +10,11 @@ export default function Gallery() {
      <div className='border grid grid-cols-1 md:grid-cols-3 gap-4 p-4'>
        
       <video src={vdo} autoPlay muted playsInline loop></video>
-      <div className='text-center'> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
+      <div className='text-center text-white'> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
      <video className='rounded-br-4xl' src={vdo2} autoPlay muted playsInline loop></video>
-     <div> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
+     <div className='text-center text-white'> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
      <video src={vdo} autoPlay muted playsInline loop></video>
-     <div> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
+     <div className='text-center text-white'> repellat consequatur aperiam laudantium iste nam hic iure ex minus assumenda commodi doloribus ad quis? Illum, aperiam! </div>
 
       
       </div>
