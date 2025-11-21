@@ -1,6 +1,6 @@
 import React from 'react';
 import vdo from '../assets/tvido.mp4';
-import vdo2 from '../assets/IMG_4439.MP4';
+import vdo2 from '../assets/IMG_4440.MP4';
 
 export default function Gallery() {
   return (
